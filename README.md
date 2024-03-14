@@ -1,1 +1,0 @@
-# foodpanda-landing-page
