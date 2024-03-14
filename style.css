@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 30px;
+    background-image: url(./logo.png);
+    background-size: cover;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logo h1{
+    margin-left: 35px;
+    font-size: 25px;
+    color: #ff2b85;
+}
+.navbutton{
+    width: 400px;
+    height: 100%;
+    margin-right: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login{
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 17px;
+    background-color: white;
+    color: #ff2b85;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup{
+    background-color: #e21b70;
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.en{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.fa-cart-shopping{
+    font-size: 20px;
+    cursor: pointer;
+}
+.div1{
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+    display: flex;
+}
+.div1con{
+   width: 60%;
+   height: 100%;
+}
+.div1img{
+    width: 38%;
+    height: 100%;
+    overflow: hidden;
+}
+.div1-h{
+    width: 100%;
+    height: 49%;
+    padding: 150px 20px 0 50px;
+}
+.div1-h h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+.divinput{
+    width: 85%;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: flex;
+    background-color: white;
+}
+.divinput1{
+    width: 80%;
+    height: 80%;
+    border: 1px solid gray;
+    border-radius: 1cqb;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.divinput1 input{
+    width: 80%;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+} 
+.fa-location-crosshairs{
+    margin-right: 10px;
+    color: #e21b70;
+    font-size: 20px;
+}
+.findfood{
+    width: 15%;
+    height: 50px;
+    background-color: #e21b70;
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+/* partners section */
+.partners{
+    width: 100%;
+    height: 750px;
+}
+.partners .caption{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 3rem;
+    font-size: 30px;
+}
+.partners .background-image{
+    background: url("./partner-bg;png.png");
+    height : 500px;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    border-radius: 20px;
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px gray;
+}
+.content h1{
+    font-size: 25px;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.content button{
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e21b70;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cities{
+    width: 100%;
+    height: 700px;
+}
+.cities h1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.citiesboxes{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box1{
+    background-image: url(./cities/islamabad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box1con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}
+.box2{
+    background-image: url(./cities/Jinnah_Mausoleum.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box2con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}
+.box3{
+    background-image: url(./cities/lahore.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box3con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}.box4{
+    background-image: url(./cities/faisalabad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box4con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}.box5{
+    background-image: url(./cities/rawalpindi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box5con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}.box6{
+    background-image: url(./cities/bhawalpor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box6con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}.box7{
+    background-image: url(./cities/hydrabad.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box7con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}.box8{
+    background-image: url(./cities/larkana.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.box8con{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+}
+.apps{
+    width: 100%;
+    height: 500px;
+}
+.apps h1{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.divapp{
+    width: 93%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #e21b70;
+    display: flex;
+}
+.divapp1{
+    width: 48%;
+    height: 100%;
+    padding: 50px 15px;
+}
+.divapp1 h1{
+    font-size: 25px;
+    color: white;
+}
+    .divapp1-2{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.divapp1-qrcode{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    background-image: url(./app/pkhomepageqrcode.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+.divapp1-content{
+    width: 350px;
+    height: 100%;
+    line-height: 25px;
+    color: white;
+}
+.divapp1-3{
+    width: 80%;
+    height: 60px;
+    margin-left: 40px;
+    display: flex;
+}
+.divapp1-appstore, .divapp1-googleplay, .divapp1-appgallery{
+    width: 130px;
+    height: 50px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.divapp1-appstore p ,.divapp1-googleplay p, .divapp1-appgallery p{
+    font-size: 10px;
+}
+.divapp1-appstore h4 ,.divapp1-googleplay h4, .divapp1-appgallery h4{
+    font-size: 20px;
+}
+.divapp2{
+    width: 48% ;
+    height: 100%;
+    position: relative;
+}
+.divapp2-img{
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    height: 400px;
+    background-image: url(./app/home-foodpanda-apps.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.office{
+    width: 100%;
+    height: 600px;
+}
+.office h1{
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.office-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(./home-corporate-pk.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e21b70;
+    position: relative;
+}
+.office-con{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 10px gray;
+}
+.office-con h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.office-con p{
+    line-height: 25px;
+    margin-left: 20px;
+}
+.office-con button{
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #e21b70;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contain-FAQ{
+    width: 90%;
+    height: 1650px;
+    margin: 0px auto;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+.contain-FAQ h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.contain-FAQ p{
+    line-height: 25px;
+}
+.contain-FAQ hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contain-FAQ h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contain-FAQ h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.location{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 25px 0;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+.location p{
+    margin-right: 20px;
+    color: gray;
+}
+.location hr{
+    margin-right: 20px;
+}
+.footer-links{
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.footer1, .footer2, .footer3, .footer4{
+    padding: 20px 0;
+    width: 350px;
+    height: 400px;
+}
+.footer1 p{
+    color: #7F7676;
+    margin-left: 10px;
+}
+.footer2 p, .footer3 p, .footer4 p{
+    color: #e21b70;
+    font-weight: bold;
+    line-height: 35px;
+    cursor: pointer;
+}
+.deliver{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+.deliver hr{
+    margin-left: 150px;
+    height: 50px;
+    margin-top: 15px;
+}
